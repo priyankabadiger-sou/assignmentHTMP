@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Student Registration Form</title></head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <hr>
+        <form action="#">
+        <fieldset style="max-width: 500px">
+            <legend>Student Profile</legend>
+        <label for="un">Student Name:</label>
+        <input type="text" name="student name" placeholder="Student name here..." id="un"><br>
+        <label for="s1">Address:</label>
+        <input type="text" name="address" placeholder="Student Address here..." id="s1"><br>
+        <tr>
+            <td>City:</td>
+             <td><select name="lang" selected="none">
+                <option value="none">select one</option>
+                 <option value="Belagavi">Belagavi</option>
+                 <option value="Bangalore">Bangalore</option>
+                 <option value="Dharwad">Dharwad</option>
+                 <option value="Hubli">Hubli</option>
+                 <option value="Dandeli">Dandeli</option>
+                 <option value="Haliyal">Haliyal</option>
+             </select></td>
+            </tr><br>
+            <tr>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="email here..." id="email"><br>
+            <label for="mob">Mobile:</label>
+            <input type="tel" name="tel" placeholder="mobile No..." id="mob"><br>
+            <td>Course:</td>
+             <td><select name="lang" selected="none">
+                <option value="none">select one</option>
+                 <option value="JAVA">JAVA</option>
+                 <option value="HTML">HTML</option>
+                 <option value="Testing">Testing</option>
+                 <option value="CSS">CSS</option>
+                 <option value="Javascript">Javascript</option>
+                 <option value="Web Development">Web Development</option>
+             </select></td>
+            </tr><br>
+            <label for="u3">Date Of Birth</label>
+            <input type="date" name="birthday" id="u3"><br>
+        </fieldset  style="max-width: 500px">
+        <fieldset  style="max-width: 500px">
+            <legend>Hobbies</legend>
+            <input type="checkbox" name="listening music" id="c1">
+            <label for="c1">Listening music</label><br>
+            <input type="checkbox" name="Reading novels" id="c2">
+            <label for="c2">Reading Novels</label><br>
+            <input type="checkbox" name="playing cricket" id="c3">
+            <label for="c3">Playing Cricket</label><br>
+        </fieldset>
+        <fieldset  style="max-width: 500px">
+            <legend>Time Slot</legend>
+            <input type="radio" name="slot" id="r1">
+            <label for="r1">Morning[8:00-11:00]</label><br>
+            <input type="radio" name="slot" id="r2">
+            <label for="r2">Aftrenoon[12:00-3:00]</label><br>
+            <input type="radio" name="slot" id="r3">
+            <label for="r3">Evening[4:30-7:30]</label><br>
+        </fieldset>
+            <tr>
+                <td><input type="Submit" value="Submit"></td>
+                <td><input type="Reset" value="Reset"></td>
+            </tr>
+    </body>
+</html>
